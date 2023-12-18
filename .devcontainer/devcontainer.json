@@ -51,4 +51,4 @@
     "source=${localEnv:USERPROFILE}\\source\\repos\\utecio-ha\\custom_components\\ultraloq_ble,target=${containerWorkspaceFolder}/config/custom_components/ultraloq_ble,type=bind",
     "source=${localEnv:USERPROFILE}\\source\\repos\\ha-config,target=${containerWorkspaceFolder}/config,type=bind"
     ]
-  }
+}
