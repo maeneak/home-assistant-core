@@ -5,7 +5,7 @@
   "postCreateCommand": ["script/setup"],
   "postStartCommand": ["script/bootstrap"],
   "containerEnv": { "DEVCONTAINER": "1" },
-  "appPort": ["8123:8123"],
+  "appPort": ["7123:8123"],
   "privileged": true,
   "runArgs": ["-e", "GIT_EDITOR=code --wait"],
   "customizations": {
