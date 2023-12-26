@@ -2,11 +2,8 @@
   "name": "Home Assistant Dev",
   "context": "..",
   "dockerFile": "../Dockerfile.dev",
-  "postCreateCommand": [
-    "git config --global --add safe.directory *",
-    "script/setup"
-  ],
-  "postStartCommand": "script/bootstrap",
+  "postCreateCommand": ["script/setup"],
+  "postStartCommand": ["script/bootstrap"],
   "containerEnv": { "DEVCONTAINER": "1" },
   "appPort": ["8123:8123"],
   "privileged": true,
