@@ -3,6 +3,7 @@
 .github
 config
 docs
+!/config/custom_components/ultraloq_ble/
 
 # Development
 .devcontainer

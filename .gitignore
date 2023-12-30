@@ -1,6 +1,6 @@
 /config
-config2/*
 
+utecio
 tests/testing_config/deps
 tests/testing_config/home-assistant.log*
 
@@ -132,3 +132,5 @@ tmp_cache
 
 # python-language-server / Rope
 .ropeproject
+
+!config/custom_components/ultraloq_ble/
